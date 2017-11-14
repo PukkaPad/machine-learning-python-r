@@ -2,7 +2,7 @@ Machine Learning - Python and R
 -----------------------
 Machine learning algorithms in Python and R
 
-1- Data Preprocessing
+01 - Data Preprocessing
 -----------------------
 
 ### Missing data
@@ -37,38 +37,35 @@ The model is fit on a training set. The test dataset is used to provide an unbia
 Data is standardized, so large variables will not dominate the computed dissimilarity
 
 
-2- Regression
+02 - Regression
 -----------------------
 
 
-3-
+03 - Classification
 -----------------------
 
 
-4-
+04 - Clustering
 -----------------------
 
-5-
+05 - Association Rule Learning
 -----------------------
 
-6-
+06 - Reinforcement Learning
 -----------------------
 
-7-
------------------------
-
-
-8-
+7 - Natural Language Processing
 -----------------------
 
 
-9-
+8 - Deep Learning
 -----------------------
 
 
-10-
+9 - Dimensionality Reduction
 -----------------------
 
-11-
+
+10 - Model Selection & Boosting
 -----------------------
 
