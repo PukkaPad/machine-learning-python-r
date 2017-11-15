@@ -40,8 +40,27 @@ Data is standardized, so large variables will not dominate the computed dissimil
 02 - Regression
 -----------------------
 
+Linear regression assumptions:
+
+1. Linearity
+
+2. [Homoscedasticity](https://en.wikipedia.org/wiki/Homoscedasticity):
+variance around regression line is the same for all X
+
+3. [Multivariate normality](https://en.wikipedia.org/wiki/Multivariate_normal_distribution):
+joint distribution of a random vector that can be represented as a linear transformation
+
+4. Independence of erros:
+no correlation between consecutive errors
+
+5. Lack of multicollinearity:
+multicollinearity occurs when the independent variables are too highly correlated with each other
+
 # 2.1 - Simple Linear Regression
 
+# 2.2 - Multiple Linear Regression
+Important to know:
+    * [Dummy variable trap](http://www.algosome.com/articles/dummy-variable-trap-regression.html)
 
 03 - Classification
 -----------------------

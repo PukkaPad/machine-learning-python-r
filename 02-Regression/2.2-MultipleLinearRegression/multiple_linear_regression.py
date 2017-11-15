@@ -38,3 +38,47 @@ regressor.fit(X_train, y_train)
 
 # Predicting the Test set results
 y_pred = regressor.predict(X_test)
+
+#######################################################################
+# Building the optimal model using Backward Elimination
+import statsmodels.formula.api as sm
+
+# y = b0 + b1 x1 + b2 x2 +b3 x3 + bn xn
+# I will add x0
+# it will be 1, so it wont change the constant (b0)
+# I have to add because the stats model does not have b0 = 1
+# Most libraries have b0 included, such as sklearn
+
+# (following above: Add X to a matrix of 1)
+X = np.append(arr = np.ones((50, 1)).astype(int), values = X, axis = 1)
+
+# Create optimal matrix of features:
+# it will contain only the variales that have high impact on the profit
+# first add all (indexes) and remove step by step
+X_opt = X[:, [0, 1, 2, 3, 4, 5]]
+#significance level = 0.05
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
+#print (regressor_OLS.summary())
+
+# x2 has highest P value
+X_opt = X[:, [0, 1, 3, 4, 5]]
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
+regressor_OLS.summary()
+
+# remove x1
+X_opt = X[:, [0, 3, 4, 5]]
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
+regressor_OLS.summary()
+#print (regressor_OLS.summary())
+
+# remove x2 (index 4)
+X_opt = X[:, [0, 3,5]]
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
+regressor_OLS.summary()
+#print (regressor_OLS.summary())
+
+# Remove x2 (index 5)
+X_opt = X[:, [0, 3]]
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
+regressor_OLS.summary()
+#print (regressor_OLS.summary())

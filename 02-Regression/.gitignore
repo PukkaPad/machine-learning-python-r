@@ -1,2 +1,3 @@
 *.html
-*Regression.py
+*LinearRegression.py
+*.pdf
