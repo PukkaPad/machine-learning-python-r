@@ -56,11 +56,14 @@ no correlation between consecutive errors
 5. Lack of multicollinearity:
 multicollinearity occurs when the independent variables are too highly correlated with each other
 
-# 2.1 - Simple Linear Regression
+### 2.1 - Simple Linear Regression
 
-# 2.2 - Multiple Linear Regression
+### 2.2 - Multiple Linear Regression
 Important to know:
+
     * [Dummy variable trap](http://www.algosome.com/articles/dummy-variable-trap-regression.html)
+
+### 2.3 - Polynomial Regression
 
 03 - Classification
 -----------------------
