@@ -10,6 +10,7 @@ __pycache__
 # Jupyter Notebook
 .ipynb_checkpoints
 /test
+*.pdf
 
 #sublime
 *.sublime-project
