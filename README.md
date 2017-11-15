@@ -40,6 +40,8 @@ Data is standardized, so large variables will not dominate the computed dissimil
 02 - Regression
 -----------------------
 
+# 2.1 - Simple Linear Regression
+
 
 03 - Classification
 -----------------------
