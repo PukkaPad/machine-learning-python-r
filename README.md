@@ -65,10 +65,30 @@ Important to know:
 
 ### 2.3 - Polynomial Regression
 
-### 2.4 -
+### 2.4 - Support Vector Regression (SVR)
+
+[SVR](http://www.saedsayad.com/support_vector_machine_reg.htm)
+
+### 2.5 - Decision Tree Regression
+
+### 2.6 - Random Forest Regression
+
+### 2.7 - Evaluating Regression Models Performance
+
+* R-Squared: tells how good the regression line is compared to the average line of the dataset; it tells how well the model is fitted to the data.
+
+* Adjusted R-Squared: R-Squared will always increase. So if I add variables to the model, I will not know if the variables are helping the model or not.
+The adjusted R-Squared is then used instead
+
 
 03 - Classification
 -----------------------
+
+### 3.1 - Logistic Regression
+
+### 3.2 - K-Nearest Neighbors
+
+### 3.3 - Support Vector Machine
 
 
 04 - Clustering
