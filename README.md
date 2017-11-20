@@ -87,8 +87,22 @@ The adjusted R-Squared is then used instead
 ### 3.1 - Logistic Regression
 
 ### 3.2 - K-Nearest Neighbors
+Idea: search for closest match of the test data in the feature space
 
 ### 3.3 - Support Vector Machine
+
+### 3.4 - Kernel Support Verctor Machine
+Kernel trick: implicitly work in a higher-dimensional space, without explicitly building the higher-dimensional representation
+
+Types of kernel functions:
+[info](http://mlkernels.readthedocs.io/en/latest/kernels.html)
+* RBF (Gaussian)
+* Sigmoid
+* Polynomial
+
+### 3.5 - Naive Bayes
+* Bayes' Theorem
+It's called Naive because Bayes Theorem requires some **Independence assumption**, these assumptions are often times not correct. It requires that the variables are independent.
 
 
 04 - Clustering
